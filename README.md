@@ -1,9 +1,13 @@
-Added a test example. It's necessary to install
+Added a test example using [nestjs-typeorm-testing](https://github.com/devniel/nestjs-typeorm-testing). By now, it's necessary to install.
 
 - @nestjs/typeorm
 - @nestjs/common
 - @nestjs/core
 - rxjs
+
+Todo:
+
+- Replace nestjs-typeorm-testing with a module only about typeorm to avoid installing the modules mentioned above.
 
 # Example how to use TypeORM with TypeScript
 
