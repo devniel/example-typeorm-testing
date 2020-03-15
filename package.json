@@ -1,0 +1,51 @@
+{
+  "name": "typeorm-typescript-example",
+  "version": "0.0.1",
+  "description": "Example how to use TypeORM with TypeScript.",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Umed Khudoiberdiev",
+    "email": "pleerock.me@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typeorm/typescript-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typeorm/typescript-example/issues"
+  },
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "@devniel/nestjs-typeorm-testing": "0.0.4-alpha",
+    "@nestjs/typeorm": "^7.0.0",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^9.6.5",
+    "jest": "^25.1.0",
+    "rxjs": "^6.5.4",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.0.2",
+    "@nestjs/core": "^7.0.2",
+    "mysql": "^2.15.0",
+    "pg": "^7.18.2",
+    "reflect-metadata": "^0.1.12",
+    "typeorm": "^0.2.15"
+  },
+  "scripts": {
+    "start": "tsc && node src/index.js",
+    "test": "jest",
+    "typeorm": "./node_modules/.bin/typeorm "
+  }
+}
